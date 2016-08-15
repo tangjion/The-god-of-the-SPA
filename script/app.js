@@ -1,0 +1,1 @@
+var SPAgod = angular.module('SPAgod',['ngRoute']);

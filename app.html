@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="SPAgod">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <div class="content">
+        <div ng-view></div>
+    </div>
+    <footer>
+        <h5>Footer</h5>
+    </footer>
+    <script src="script/vendor/angular.js"></script>
+    <script src="script/vendor/angular-route.js"></script>
+    <script src="script/app.js"></script>
+    <script src="script/config/routerConfig.js"></script>
+    <script src="script/controllers/indexController.js"></script>
+</body>
+</html>
