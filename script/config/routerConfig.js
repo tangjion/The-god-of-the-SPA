@@ -19,8 +19,5 @@ SPAgod.config(['$routeProvider', '$locationProvider', function($routeProvider, $
     //     requireBase: false
     // });
     // $locationProvider.hashPrefix('!!!');
-    $locationProvider.html5Mode({
-        enabled: true,
-        requireBase: false
-    });
+    $locationProvider.html5Mode(true);
 }]);

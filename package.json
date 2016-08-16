@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tangjion/The-god-of-the-SPA/issues"
   },
-  "homepage": "https://github.com/tangjion/The-god-of-the-SPA#readme"
+  "homepage": "https://github.com/tangjion/The-god-of-the-SPA#readme",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
 }
