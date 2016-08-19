@@ -2,21 +2,31 @@
 <html lang="en" ng-app="SPAgod">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detaction" content="email=no">
+    <link rel="stylesheet" href="resource/styles/css/common/Mortal.css">
+    <link rel="stylesheet" href="resource/styles/css/common/animation.min.css">
+    <link rel="stylesheet" href="resource/styles/css/common/main.min.css">
+    <link rel="stylesheet" href="resource/styles/css/pages/home.min.css">
+    <link rel="stylesheet" href="resource/styles/css/pages/list.min.css">
     <title>{{title}}</title>
     <base href="/">
 </head>
 <body>
-    <header>
+    <header class="f12 white">
         <h1>Header</h1>
     </header>
-    <div class="content">
-        <div ng-view></div>
+    <div class="content f12 view-animate-container" style="height:622px">
+        <div ng-view class="view-animate"></div>
     </div>
-    <footer>
+    <footer class="f12 white">
         <h5>Footer</h5>
     </footer>
     <script src="script/vendor/angular.js"></script>
     <script src="script/vendor/angular-route.js"></script>
+    <script src="script/vendor/angular-animate.js"></script>
     <script src="script/app.js"></script>
     <script src="script/config/routerConfig.js"></script>
     <script src="script/controllers/homeController.js"></script>

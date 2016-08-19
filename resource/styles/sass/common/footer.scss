@@ -1,0 +1,14 @@
+$bgClr: #004444;
+$txtClr: #ffffff;
+
+footer{
+  width: 100%;
+  height:7rem;
+  background-color: $bgClr;
+  color: $txtClr;
+  text-align: center;
+  line-height: 7rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}

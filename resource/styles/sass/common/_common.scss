@@ -1,0 +1,21 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+@each $i in 12, 14, 16, 18, 20, 24{
+  .f#{$i}{
+    font-size: #{$i}px;
+  }
+}
+
+@each $i in white, red, blue, black{
+  .#{$i}{
+    color: #{$i};
+  }
+}
+
+.content{
+  top: 4.4rem;
+  bottom: 7rem;
+}

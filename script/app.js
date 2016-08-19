@@ -1,1 +1,1 @@
-var SPAgod = angular.module('SPAgod',['ngRoute']);
+var SPAgod = angular.module('SPAgod',['ngRoute', 'ngAnimate']);
